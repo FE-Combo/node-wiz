@@ -1,0 +1,26 @@
+{
+  "name": "node-wiz",
+  "version": "0.0.1",
+  "description": "The Node.js toolset provides powerful functions and tools to speed up the development process.",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write ./index.js",
+    "release": "standard-version",
+    "release:beta": "standard-version --prerelease beta",
+    "release:alpha": "standard-version --prerelease alpha",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.1.1",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "standard-version": "^9.5.0"
+  }
+}
