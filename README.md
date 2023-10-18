@@ -15,10 +15,10 @@ yarn add node-wiz --dev
 ### 函数
 - spawnSync(command: string, params: string[]): 同步执行命令行
 - clearConsole(): 清空控制台
-- getGitStatus: 获取git状态
+- getGitStatus(): 获取git状态
 - tryGitAdd(path: string): 执行 git add
-- tryYarn: 执行 yarn
-- tryNpm: 执行 npm
+- tryYarn(): 执行 yarn
+- tryNpm(): 执行 npm
 - capitalizeFirstLetter(str: string): 首字母大写
 - decapitalizeFirstLetter(str: string): 首字母小写
 - handleAndExitOnError(func): 错误处理
