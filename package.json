@@ -1,6 +1,6 @@
 {
   "name": "node-wiz",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The Node.js toolset provides powerful functions and tools to speed up the development process.",
   "main": "index.js",
   "scripts": {
