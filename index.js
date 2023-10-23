@@ -28,7 +28,7 @@ function clearConsole() {
 }
 
 function getGitStatus() {
-  return handleAndExitOnErrorSync(() => {
+  return handleAndExitOnError(() => {
     // 获取Git仓库的状态，以一种简洁的格式输出未提交的更改，并指定了子进程的标准输入、标准输出和标准错误的处理方式
     let stdout = childProcess.execSync(`git status --porcelain`, { stdio: ["pipe", "pipe", "ignore"] }).toString();
     return stdout.trim();
